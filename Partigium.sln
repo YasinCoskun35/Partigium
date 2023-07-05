@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{6B9F0AA8-6937-4561-BC8A-989280B678D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DB83CDB2-F6F3-4BD8-B988-BF900B0C50FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{E18604D4-F5B3-46FE-9C01-C4A200CE424B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partigium.Catalog.API", "source\Services\Catalog\Partigium.Catalog.API\Partigium.Catalog.API.csproj", "{7B2B28D6-58D6-4ED3-AE78-81D741DE7DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B2B28D6-58D6-4ED3-AE78-81D741DE7DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2B28D6-58D6-4ED3-AE78-81D741DE7DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2B28D6-58D6-4ED3-AE78-81D741DE7DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2B28D6-58D6-4ED3-AE78-81D741DE7DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB83CDB2-F6F3-4BD8-B988-BF900B0C50FD} = {6B9F0AA8-6937-4561-BC8A-989280B678D2}
+		{E18604D4-F5B3-46FE-9C01-C4A200CE424B} = {DB83CDB2-F6F3-4BD8-B988-BF900B0C50FD}
+		{7B2B28D6-58D6-4ED3-AE78-81D741DE7DF1} = {E18604D4-F5B3-46FE-9C01-C4A200CE424B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C9D573C-7116-4117-9B26-A0CA60848FEB}
+	EndGlobalSection
+EndGlobal
